@@ -2,27 +2,12 @@
 
 `mkdir lab5 && cd lab5`
 
-## 1 Setting up
-
-### Requirements
-
-<!-- Create an SSH key:
-
-- `ssh-keygen -m PEM -t rsa -f lab5`  
-- Do not enter a passphrase -->
-
-<!-- Log into AWS Educate and get the accounts details:
-
-- Copy AWS CLI details
-- `nano ~/.aws/credentials`
-- Replace all content with new details -->
-
-## 2 Create an EC2 Instance
+## 1 Create an EC2 Instance
 
 1. Head into the AWS Console and change region to US East, N. Virginia.
 2. Click on *Services*, *EC2* and *Launch Service*.
 
-## 3 Creating Virtual Machine
+## 2 Creating Virtual Machine
 
 1. Select *Ubuntu Server 18.04 LTS 64-bit*
 2. Select *t2.micro* (this should be defaulted)
@@ -51,7 +36,7 @@
 15. Once the instance is running, select it and copy the Public DNS. Save this as we will be using it later.
     <!-- 1.  `ec2-52-86-36-187.compute-1.amazonaws.com` -->
 
-## 4 Connecting to the Virtual Machine
+## 3 Connecting to the Virtual Machine
 
 SSH into the instance:
 
@@ -62,7 +47,7 @@ Update sources and Upgrade the system
 
 1. `sudo apt update -y && sudo apt upgrade -y`
 
-## 5 Customizing the Virtual Machine
+## 4 Customizing the Virtual Machine
 
 ### Install Java JDK
 
