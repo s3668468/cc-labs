@@ -89,3 +89,5 @@ In Eclipse IDE
    2. IAM: `hello-lambda-role`
    3. S2: `s3668468-lab11-bucket`
 4. *Finish*
+
+Eclipse errored out with 403 Access Denied. Cannot fix this issue as I do not have a personal AWS account. (*refer to eclipse_error_access_denied.png*)
